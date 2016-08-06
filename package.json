@@ -48,8 +48,6 @@
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.13.3",
     "file-loader": "^0.8.5",
-    "lodash": "^3.10.1",
-    "react-router": "^2.0.0-rc4",
     "rimraf": "^2.4.3",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
@@ -57,9 +55,11 @@
     "webpack-hot-middleware": "^2.6.0"
   },
   "dependencies": {
+    "lodash": "^4.14.1",
     "material-ui": "^0.15.2",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-router": "^2.6.1",
     "react-tap-event-plugin": "^1.0.0"
   }
 }

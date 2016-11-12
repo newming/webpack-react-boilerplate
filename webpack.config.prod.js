@@ -37,6 +37,10 @@ module.exports = {
     {
       test: /\.(jpe?g|png)$/,
       loader: 'file-loader'
+    },
+    {
+      test: /\.(woff|woff2|ttf|svg|eot)(\?v=\d+\.\d+\.\d+)?$/,
+      loader: "url?limit=10000"
     }]
   }
 };
